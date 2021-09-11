@@ -1,0 +1,18 @@
+if [ $# -ne 1 ]; then
+     echo "$0 [Input your key file]"
+     exit 2
+fi
+
+keyinput=$1
+
+for filet in $(ls *.sh)
+do
+	if grep "key0" $filet
+	then
+		echo "-----  $key file found in file:  $filet. Need to be replace by your own key"
+		
+		sed -i.bu 's/key0=.*$/key0='"${keyinput}"'/g' $filet 
+	fi
+done
+
+
