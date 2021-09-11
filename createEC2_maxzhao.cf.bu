@@ -1,0 +1,14 @@
+Resources:
+    EC2Instance:
+        Type: 'AWS::EC2::Instance'
+        Properties:
+            AvailabilityZone: us-east-2a
+            ImageId: ami-00399ec92321828f5 
+            InstanceType: t2.micro
+            KeyName: 'MaxKeyEast2'
+            SecurityGroupIds: ['sg-00c755662ad177a51']
+            SubnetId: 'subnet-0b1d57ee91a3f19af'
+            Tags:
+            - Key: Name
+              Value: machine1
+
