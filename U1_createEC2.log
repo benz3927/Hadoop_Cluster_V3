@@ -1,0 +1,20 @@
+-n 
+-------  Input 1: The stackname is:  zstack2
+-------  Input 2: The EC2 Instance name is:  
+-------  Input 3: The templae file is:  file:///Users/benzhao/aws/createEC2_benzhao.cf
+------- Step 1. Starting to generate the stack.
+------- Step 1. Completed generating the stack.
+------- Step 2. Starting to check the instance creation.
+---- iter = 1, Time Stamp: Sat Sep 11 22:43:25 EDT 2021.
+---- iter = 2, Time Stamp: Sat Sep 11 22:43:27 EDT 2021.
+---- iter = 3, Time Stamp: Sat Sep 11 22:43:28 EDT 2021.
+---- iter = 4, Time Stamp: Sat Sep 11 22:43:30 EDT 2021.
+---- iter = 5, Time Stamp: Sat Sep 11 22:43:32 EDT 2021.
+---- iter = 6, Time Stamp: Sat Sep 11 22:43:34 EDT 2021.
+---- iter = 7, Time Stamp: Sat Sep 11 22:43:36 EDT 2021.
+---- iter = 8, Time Stamp: Sat Sep 11 22:43:38 EDT 2021.
+---- iter = 9, Time Stamp: Sat Sep 11 22:43:39 EDT 2021.
+---- iter = 10, Time Stamp: Sat Sep 11 22:43:41 EDT 2021.
+----  IP found. exiting.
+------- Step 2. Completed checking the instance creation.
+-----  Great. The private iP address was captured.
