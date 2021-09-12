@@ -1,6 +1,6 @@
 
-user=maxzhao
-key0=MaxKeyEast2.pem
+user=$(whoami)
+key0=BenKey.pem
 
 templateloc=/Users/$user/aws/createEC2_${user}.cf
 keyfile=/Users/$user/aws/securitykey/$key0
