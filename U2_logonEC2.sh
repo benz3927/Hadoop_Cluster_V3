@@ -1,5 +1,9 @@
 user=$(whoami)
+<<<<<<< Updated upstream
 key0=BenKey.pem
+=======
+key0=MaxKeyEast2.pem
+>>>>>>> Stashed changes
 
 keyfile=/Users/$user/aws/securitykey/$key0
 ipfile=/Users/$user/aws/3ipaddress.txt
