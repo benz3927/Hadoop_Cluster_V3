@@ -1,7 +1,7 @@
 
 
 user=$(whoami)
-key0=MaxKeyEast2.pem
+key0=BenKey.pem
 
 templateloc=/Users/$user/aws/createEC2_${user}.cf
 keyfile=/Users/$user/aws/securitykey/$key0
@@ -65,5 +65,10 @@ do
 
 	###  Step 4. Create user "hduse" nad make it keyless communicatable as well.
 done
+
+######  CLean it all up.
+rm *.bu
+rm infokeepFornewEC2*txt
+
 
 
