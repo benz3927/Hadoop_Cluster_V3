@@ -1,0 +1,14 @@
+Resources:
+    EC2Instance:
+        Type: 'AWS::EC2::Instance'
+        Properties:
+            AvailabilityZone: us-east-2a
+            ImageId: ami-00399ec92321828f5 
+            InstanceType: t2.micro
+            KeyName: 'BenKey'
+            SecurityGroupIds: ['sg-079e1e33ead9af8b1']
+            SubnetId: 'subnet-bf4380d4'
+            Tags:
+            - Key: Name
+              Value: machine1
+
