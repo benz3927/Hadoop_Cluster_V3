@@ -1,4 +1,4 @@
-user=maxzhao
+user=$(whoami)
 ipfile="/Users/${user}/aws/3ipaddress.txt"
 
 aws ec2 describe-instances \
