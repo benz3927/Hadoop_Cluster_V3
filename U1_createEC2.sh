@@ -25,7 +25,6 @@ templateloc="file://$templatefile"
 logfile=U1_createEC2.log
 echo -n "" >$logfile
 
-#templateloc=file:///Users/maxzhao/aws/dockerizedjob/test.cf
 echo "-------  Input 1: The stackname is:  $stackname"         2>&1 | tee -a $logfile
 echo "-------  Input 2: The EC2 Instance name is:  $EC2Name"   2>&1 | tee -a $logfile
 echo "-------  Input 3: The templae file is:  $templateloc"    2>&1 | tee -a $logfile
