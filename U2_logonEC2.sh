@@ -1,7 +1,7 @@
-user=maxzhao
-key0=key0=MaxKeyEast2.pem
+user=$(whoami)
+key0=BenKey.pem
 
-keyfile=/Users/$user/aws/securitykey/MaxKeyEast2.pem
+keyfile=/Users/$user/aws/securitykey/$key0
 ipfile=/Users/$user/aws/3ipaddress.txt
 
 #######
